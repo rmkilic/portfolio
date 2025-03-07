@@ -80,11 +80,27 @@ class _ProfileViewState extends State<ProfileView> {
           children: [
           ProfileImage(imageUrl: imagePath ?? "",),
             AppSpacing.standartWidth,
-            AppSpacing.standartWidth,
-            Expanded(child: personal(data))
+           
+            Expanded(child: mobilePersonal(data))
             ],
         ),
       ),
+    );
+  }
+  Widget mobilePersonal(AboutModel data)
+  {
+    String name = LocaleKeys.general_name.tr();
+    List<String> nameList = name.split(' ');
+    return Column(
+      mainAxisSize: MainAxisSize.max,
+      mainAxisAlignment: MainAxisAlignment.center,
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        for(var item in nameList)
+        TextTitleMedium(text: item, fontWeight: FontWeight.bold,),
+        TextBodyLarge(text: data.profession, overflow: TextOverflow.visible, fontWeight: FontWeight.bold, opacity: .5,),
+
+      ],
     );
   }
 

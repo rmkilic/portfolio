@@ -66,8 +66,15 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
     List.generate(tabMenuItem.length, (int index)=>Tab(child: FittedBox(child: _AppbarItem(text: tabMenuItem[index], index: index)),));
   }
 
-  @override
-  Size get preferredSize => Size.fromHeight(80);
+   @override
+  Size get preferredSize
+  {
+    double screenWidth = WidgetsBinding.instance.platformDispatcher.views.first.physicalSize.width /
+      WidgetsBinding.instance.platformDispatcher.views.first.devicePixelRatio;
+
+      double height = screenWidth <1000 ? 50 : 80;
+    return Size.fromHeight(height);
+  }
 }
 
 
