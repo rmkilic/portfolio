@@ -1,0 +1,66 @@
+name: portfolio
+description: "Rauf Mumin Kilicarslan Portfolio"
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #web
+  dio: ^5.8.0+1
+
+  #state management
+  get: ^4.7.2
+
+  #utility
+  get_it: ^8.0.3
+
+  #multi language
+  easy_localization: ^3.0.7+1
+  country_flags: ^3.2.0
+
+  #firebase services
+  firebase_core: ^3.12.1
+  firebase_storage: ^12.4.4
+
+
+  #caching
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  #widget
+  url_launcher: ^6.3.1
+  cached_network_image: ^3.4.1
+
+  #animation
+  lottie: ^3.3.1
+
+  #design
+  cupertino_icons: ^1.0.8
+  font_awesome_flutter: ^10.8.0
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/animation/
+    - assets/translations/
+
