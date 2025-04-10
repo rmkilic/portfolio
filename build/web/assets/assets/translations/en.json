@@ -1,0 +1,45 @@
+{
+    "general":
+    {
+        "about": "About",
+        "experience": "Experience",
+        "references": "References",
+        "resume": "Resume",
+        "projects": "Projects",
+        "links": "Links",
+        "freelanceAndPersonal": "Freelance & Personal Projects",
+        "freelance":"Freelance",
+        "personalProjects": "Personal Project",
+        "name": "R.Mumin KILICARSLAN"
+    },
+    "about_page":
+    {
+        "personalInfo": "Personal information",
+        "birthday": "Birthday",
+        "militaryService": "Military Service",
+        "phone": "Phone",
+        "freelance": "Freelance",
+        "degree": "Degree",
+        "drivingLicence": "Driving Licence",
+        "eMail": "E-mail",
+        "city" : "City",
+        "skills": "Skills"
+    },
+    "experience_page":
+    {
+        "present": "Present"
+    },
+    "resume_page":
+    {
+        "english": "English",
+        "turkish": "Turkish",
+        "downloadCVDescription": "You can download my resume in PDF format to learn more about my career. Please select your preferred language below",
+        "educationWork": "My education and work experiences are stated below"
+    },
+    "project":
+    {
+        "imageDescription": "When you reach the Projects page on the mobile screen, you can click on a project to view the images."
+    }
+
+    
+}

@@ -1,0 +1,44 @@
+{
+    "general":
+    {
+        "about": "Hakkımda",
+        "experience": "Deneyim",
+        "references": "Referanslar",
+        "resume": "Özgeçmiş",
+        "projects": "Projeler",
+        "links": "Bağlantılar",
+        "freelanceAndPersonal": "Freelance & Kişisel Projelerim",
+        "freelance":"Freelance",
+        "personalProjects": "Kişisel Proje",
+        "name": "R.Mümin KILIÇARSLAN"
+
+    },
+    "about_page":
+    {
+        "personalInfo": "Kişisel Bilgilerim",
+        "birthday": "Doğum Tarihi",
+        "militaryService": "Askerlik Hizmeti",
+        "phone": "Telefon",
+        "freelance": "Freelance",
+        "degree": "Derece",
+        "drivingLicence": "Sürücü Belgesi",
+        "eMail": "E-posta",
+        "city" : "Şehir",
+        "skills": "Beceriler"
+    },
+    "experience_page":
+    {
+        "present": "Mevcut"
+    },
+    "resume_page":
+    {
+        "english": "İngilizce",
+        "turkish": "Türkçe",
+        "downloadCVDescription": "Kariyerim hakkında daha fazla bilgi edinmek için özgeçmiş dosyamı PDF formatında indirebilirsiniz. İlgilendiğiniz dile göre aşağıdan seçim yapabilirsiniz",
+        "educationWork": "Eğitim ve iş tecrübelerim aşağıda belirtilmiştir"
+    },
+    "project":
+    {
+        "imageDescription": "Mobil Ekran Projeler Sayfasına geldiğinizde, resimleri görüntüleyebilmek için projeye tıklayabilirsiniz."
+    }
+}
