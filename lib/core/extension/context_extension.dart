@@ -13,9 +13,9 @@ extension BuildContextExtension<T> on BuildContext
 
   bool get isMobile => this.screenWidth <1000 || deviceOSMobile;
 
-  bool get isTabletV => this.screenWidth < 1600;
+  bool get isTabletV => this.screenWidth < 1200;
   double get paddingMobile => MediaQuery.of(this).size.width * .02;
-  double get paddingDesktop => MediaQuery.of(this).size.width * .08;
+  double get paddingDesktop => MediaQuery.of(this).size.width * .04;
 
   TextTheme get textThem => Theme.of(this).textTheme;
 

@@ -75,7 +75,7 @@ class ResumeView extends StatelessWidget {
                           children: [
                             SummaryView(data: data.summary, layWidth: constraint.maxWidth,),
                             AppSpacing.standartHeight,
-                            EducationView(dataList: data.education),
+                            EducationView(dataList: data.education, width: constraint.maxWidth,),
                           ],
                         );
                       }
@@ -109,7 +109,7 @@ class ResumeView extends StatelessWidget {
           children: [
               SummaryView(data: data.summary, layWidth: constraint.maxWidth,),
               AppSpacing.standartHeight,
-              EducationView(dataList: data.education),
+              EducationView(dataList: data.education, width: constraint.maxWidth,),
               AppSpacing.standartHeight,
               ProfessionView(data: data.profession),
               AppSpacing.standartHeight,
